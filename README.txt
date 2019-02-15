@@ -10,6 +10,7 @@ This folder contains three cpp files and a file named S.txt
 
 2.CheckS.cpp checks the data in file "S.txt" to see whether it is a S(5,6,12).
 
-3.CyclicLatin7 inputs S(5,6,12) and search all the 12!=479001600 permutations of columns of S(5,6,12). Then check whether any code (that is iso to S(5,6,12)) satisfies the 2nd property mentioned in our paper. If so, we can find a cyclic Latin matching of order 7. Otherwise, there is no cyclic Latin matching of order 7.
+3.CyclicLatin7 inputs S(5,6,12) and searches all the 12!=479001600 codes iso to S(5,6,12) (via a permutation of the columns). Then check whether any such code satisfies the 2nd property mentioned in our paper (Section 2.3). 
+If so, we obtain a cyclic Latin matching of order 7. Otherwise, there is no cyclic Latin matching of order 7.
 
-This program runs in less in 10 minutes and its result shows that there is no cyclic Latin matching of order 7.
+This program runs in less in 10 minutes and the result is negative.
